@@ -6,21 +6,31 @@ Learning project. Goal: go from **Zero to Senior** in web development, focused m
 
 This repo tracks the journey — concepts, exercises, notes, and code — as skills build up over time.
 
-## Status
+## Repo map
 
-Just initialized. Structure and learning plan to be defined in later steps.
+- `ROADMAP.md` — master roadmap, one checkbox per milestone. The map of where we are.
+- `PROGRESS.md` — running session log; source of resume talking points.
+- `research/` — Phase 1 source roadmaps + synthesis notes.
+- `foundations/` — HTML/CSS/TS/JS gap-fill exercises.
+- `milestones/NN-topic/` — per-milestone module notes, mini-project, and debug drills.
+- `capstone/` — the evolving real app (domain chosen early in Phase 2).
+- `docs/superpowers/` — specs and plans.
 
 ## How this works
 
-_To be detailed._ Planned to cover, roughly in order:
+Learner is backend-strong / frontend-weak. Goal: confidently put Angular + web fundamentals on the resume via hands-on work. Frontend-only scope; capstone uses a mock API.
 
-- Web fundamentals (HTML, CSS, JavaScript, TypeScript)
-- Angular core (components, templates, data binding, directives, services, DI)
-- Routing, forms, HTTP, state management
-- Testing, performance, architecture
-- Senior-level concepts (patterns, scalability, best practices)
+Each milestone runs three beats:
+1. **Module** — teach the concept with small examples.
+2. **Mini-project** — learner builds something focused with it.
+3. **Challenge/debug drill** — learner fixes/extends broken or half-built code.
 
-## Notes for Claude
+Mini-projects feed the capstone where possible.
 
-- This is a mentorship-style learning repo. When helping, favor explanation and understanding over just producing finished code.
-- Build concepts progressively — assume earlier topics may still be new.
+## Mentor stance (for Claude)
+
+- Favor explanation and understanding over producing finished code.
+- Let the learner struggle productively; give hints before answers on drills.
+- Build concepts progressively; assume earlier topics may still be new.
+- Keep `PROGRESS.md` updated at the end of each session.
+- This file is living — refine it as the learner's pace and preferences become clear.
