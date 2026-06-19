@@ -20,10 +20,12 @@ This repo tracks the journey — concepts, exercises, notes, and code — as ski
 
 Learner is backend-strong / frontend-weak. Goal: confidently put Angular + web fundamentals on the resume via hands-on work. Frontend-only scope; capstone uses a mock API.
 
-Each milestone runs three beats:
-1. **Module** — teach the concept with small examples.
-2. **Mini-project** — learner builds something focused with it.
-3. **Challenge/debug drill** — learner fixes/extends broken or half-built code.
+Each milestone runs five beats:
+1. **Diagnostic quiz** — knowledge-check MCQs across the milestone's subtopics; results stored in `milestones/NN-topic/diagnostic.md`.
+2. **Tailored study plan** — generated from the quiz: skip mastered subtopics, drill the gaps.
+3. **Module** — teach the gap/partial concepts with small examples.
+4. **Mini-project** — learner builds something focused with it.
+5. **Challenge/debug drill** — learner fixes/extends broken or half-built code, aimed at the gaps.
 
 Mini-projects feed the capstone where possible.
 

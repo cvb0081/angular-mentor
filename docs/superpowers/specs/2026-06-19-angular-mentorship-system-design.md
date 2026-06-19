@@ -34,6 +34,8 @@ Work through milestones in order. Each milestone gets its **own detailed plan wh
 
 ## Milestone anatomy — the learning loop
 
+> **Updated 2026-06-19:** loop expanded to 5 beats — a **diagnostic quiz** and a **tailored study plan** now precede the three beats below. See `2026-06-19-a1-diagnostic-milestone-design.md`.
+
 Each milestone runs three beats:
 
 1. **Module** — mentor teaches the concept with small examples.
