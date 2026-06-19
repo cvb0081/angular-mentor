@@ -94,3 +94,16 @@ Please decide:
 4. **SSR (D3) & i18n/animations:** keep as milestones, or drop to "optional/awareness" given resume goal?
 5. **When to pick the capstone domain:** at B6 as proposed, or earlier (e.g. after B1) so everything builds toward it?
 6. Anything missing you want added.
+
+## Curation decisions (user)
+
+**Recorded 2026-06-19.**
+
+1. **Foundations depth:** **Keep all 5** (A1–A5). Full frontend foundations pass before Angular.
+2. **Keep/drop/reorder B/C/D:** No changes — keep proposed order.
+3. **NgRx (C5):** **Full treatment** — build a real external-state-management feature, not just awareness.
+4. **SSR / i18n / animations:** **All core** — SSR (D3), plus i18n and animations promoted to real milestones (added as D-band milestones).
+5. **Capstone domain timing:** **At B6** as proposed.
+6. **Missing:** none added.
+
+**Net effect:** thorough, maximum-coverage path. Band D expands to include i18n and animations as their own milestones (renumbered in `ROADMAP.md`).
