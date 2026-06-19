@@ -17,3 +17,9 @@ Format per entry:
 - **Clicked:** Project structure and learning loop (module → mini-project → drill).
 - **Debugged:** —
 - **Resume note:** Set up a structured, source-backed self-directed learning system.
+
+## 2026-06-19 — Phase 1 complete: roadmap built
+- **Did:** Researched roadmap.sh / Angular docs / community sources, curated and synthesized the master roadmap.
+- **Clicked:** The shape of the Angular learning path from foundations to senior.
+- **Debugged:** —
+- **Resume note:** Defined a source-backed Angular learning roadmap end to end.
