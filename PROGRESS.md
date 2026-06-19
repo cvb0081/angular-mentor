@@ -23,3 +23,9 @@ Format per entry:
 - **Clicked:** The shape of the Angular learning path from foundations to senior.
 - **Debugged:** —
 - **Resume note:** Defined a source-backed Angular learning roadmap end to end.
+
+## 2026-06-19 — A1 diagnostic
+- **Did:** Adopted the 5-beat milestone loop; ran A1 diagnostic (10 MCQs) and generated the tailored A1 study plan.
+- **Clicked:** Client–server/HTTP lifecycle, DNS, and the browser-vs-server boundary (all mastered).
+- **Debugged:** —
+- **Resume note:** Baseline-tested web/browser fundamentals and produced a gap-targeted study plan.

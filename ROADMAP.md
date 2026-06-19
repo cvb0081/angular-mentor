@@ -12,7 +12,7 @@ Modern-first spine: standalone components + signals + new control flow + typed r
 ## Bands
 
 ### A. Frontend Foundations
-- [ ] **A1. How the web & browser work** — request lifecycle, DOM, rendering. *Outcome: explain what happens from URL to pixels.*
+- [~] **A1. How the web & browser work** — request lifecycle, DOM, rendering. *Outcome: explain what happens from URL to pixels.*
 - [ ] **A2. HTML + semantic structure & forms** — semantic markup, forms, a11y basics. *Outcome: hand-write an accessible semantic form.*
 - [ ] **A3. CSS essentials** — box model, flexbox, grid, responsive design. *Outcome: build a responsive layout without a framework.*
 - [ ] **A4. Modern JavaScript + DOM** — ES modules, async/await, fetch, DOM APIs. *Outcome: fetch and render data with vanilla JS.*
