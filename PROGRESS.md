@@ -29,3 +29,9 @@ Format per entry:
 - **Clicked:** Client–server/HTTP lifecycle, DNS, and the browser-vs-server boundary (all mastered).
 - **Debugged:** —
 - **Resume note:** Baseline-tested web/browser fundamentals and produced a gap-targeted study plan.
+
+## 2026-06-19 — Refresher/recall mode built
+- **Did:** Designed and implemented refresher mode — `FRESHNESS.md` tracker + spaced-repetition behavior in `CLAUDE.md`. Closed issue #1.
+- **Clicked:** Spaced-repetition scheduling (interval ×2 / reset-to-1) and the escalating MCQ→task→debug drill.
+- **Debugged:** —
+- **Resume note:** Built a self-directed spaced-repetition skill-retention system.
