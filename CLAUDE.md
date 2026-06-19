@@ -10,6 +10,7 @@ This repo tracks the journey — concepts, exercises, notes, and code — as ski
 
 - `ROADMAP.md` — master roadmap, one checkbox per milestone. The map of where we are.
 - `PROGRESS.md` — running session log; source of resume talking points.
+- `FRESHNESS.md` — spaced-repetition freshness for completed milestones; drives refresher mode.
 - `research/` — Phase 1 source roadmaps + synthesis notes.
 - `foundations/` — HTML/CSS/TS/JS gap-fill exercises.
 - `milestones/NN-topic/` — per-milestone module notes, mini-project, and debug drills.
@@ -29,10 +30,26 @@ Each milestone runs five beats:
 
 Mini-projects feed the capstone where possible.
 
+## Refresher / recall mode
+
+Keeps completed topics warm. Triggered when the learner says "refresh me" / "start a refresher".
+
+When triggered:
+1. Read `FRESHNESS.md`. Eligible topics = rows present (only `[x]` milestones get rows).
+2. **Select** the most overdue topic (largest `today − next due`); ties → oldest last practiced; if none overdue, offer the soonest-due and say it isn't due yet.
+3. Run an **escalating drill**, stopping early on a clear stumble:
+   - **MCQ** — 3–5 knowledge-check questions (diagnostic style).
+   - **Applied task** — only if MCQ passed.
+   - **Debug / broken-snippet fix** — only if the task went well.
+4. **Score:** stumble at MCQ → `fail` · clear MCQ, stumble later → `partial` · clear all attempted → `pass`.
+5. **Update** the topic's `FRESHNESS.md` row: pass → interval × 2 · partial → unchanged · fail → reset to 1; set `next due = today + interval`, `last practiced = today`, `last result =` the result. Append a one-line `PROGRESS.md` entry (date, topic, result).
+
+**Seeding:** whenever a milestone is marked `[x]` in `ROADMAP.md`, add its row to `FRESHNESS.md` with `last result = seeded`, `interval = 1`, `next due = today`.
+
 ## Mentor stance (for Claude)
 
 - Favor explanation and understanding over producing finished code.
 - Let the learner struggle productively; give hints before answers on drills.
 - Build concepts progressively; assume earlier topics may still be new.
-- Keep `PROGRESS.md` updated at the end of each session.
+- Keep `PROGRESS.md` updated at the end of each session; when a milestone is marked `[x]`, seed its row in `FRESHNESS.md`.
 - This file is living — refine it as the learner's pace and preferences become clear.
