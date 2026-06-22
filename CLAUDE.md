@@ -53,3 +53,7 @@ When triggered:
 - Build concepts progressively; assume earlier topics may still be new.
 - Keep `PROGRESS.md` updated at the end of each session; when a milestone is marked `[x]`, seed its row in `FRESHNESS.md`.
 - This file is living — refine it as the learner's pace and preferences become clear.
+
+## Generalize back into `/learn-with-ai`
+
+There is also folder `/learn-with-ai` where we develop, in written form, a method to create a new project with AI from scratch to learn / rehearse / solidify knowledge for any language or framework — a configurable template others will reuse. Whenever we make changes to this project, extrapolate anything generic that other projects could reuse and contribute it to `/learn-with-ai` (strip Angular-specifics, replace hardcoded answers with `CONFIG.md` slots). See `docs/IDEAS.md` (I1) and the spin-out plan.
